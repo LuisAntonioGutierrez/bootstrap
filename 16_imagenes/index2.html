@@ -18,44 +18,99 @@
     <![endif]-->
   </head>
   <body>
-        
-    <div class="container">      
-        <div class="row">
-          <div class="col-xs-8 col-md-12">          
-          
-          <img class="img-responsive img-rounded" src="img/coupe_car.png" alt="test">
-
-          <div class="row">
-              <div class="col-xs-4"> <!-- así quedaría si quiero poner el offset para recorrelo un poco class="col-xs-4 col-xs-offset-1" -->
-                <img class="img-responsive img-circle" src="img/camaro.png" alt="test">
-              </div>
-              <div class="col-xs-8">
-                    <p>Este es el texto al lado de la imagen</p> 
-              </div>
-          </div>
-          <div class="row">
-              <div class="col-xs-12">
-                no se que poner aquí pero teoricamente aqui deberia haber un texto muy bonito en forma de parrafo 
-              </div>
-            
-          </div>
-
-            <div class="row">
-                <div class="col-md-4 ">
-                    <img src="img/ferrari.png" class="img-responsive img-rounded" alt="test">
-                </div>
-                <div class="col-md-4">
-                    <img src="img/porsche.png" class="img-responsive img-rounded" alt="test">
-                </div>
-                <div class="col-md-4">
-                    <img src="img/black_car.png" class="img-responsive img-rounded" alt="test">
-                </div>
-                    
+     
+    <div class ="container">
+      <div clas="row">
+        <!-- Esto aparece de lg en adelante-->
+            <div class="col-lg-12 hidden-xs hidden-sm"> 
+              <img class="img-responsive img-rounded" src="img/coupe_car.png" alt="test">
             </div>
-            
-          </div>
+            <!-- Esto aparece de xs a s-->
+            <div class="col-xs-12 hidden-md hidden-lg">
+              <img class="img-responsive img-circle" src="img/camaro.png" alt="test">
+            </div>
+      </div>
+<!-- así quedaría si quiero poner el offset para recorrelo un poco class="col-xs-4 col-xs-offset-1" -->
+      <div class="row"> 
+        <div class="hidden-xs hidden-sm col-lg-4">
+          <img class="img-responsive img-circle" src="img/camaro.png" alt="test">
         </div>
-      </div>    
+        <div class="col-xs-12 col-lg-8">
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+            Cras at tincidunt lorem, sit amet scelerisque ipsum. 
+            Integer aliquet interdum nibh ac elementum.
+            Nullam vestibulum dolor tortor, sed porta lacus elementum sed. 
+           Nam id libero tincidunt neque sodales ornare vel nec est. 
+            Aenean ornare lorem ac lorem molestie, quis tristique eros volutpat. Morbi non lacus mi. Nunc non mi dolor. 
+            Suspendisse quis auctor odio. Pellentesque eget nulla ac purus semper volutpat eu rhoncus urna. 
+            Etiam eleifend luctus mi, at convallis orci viverra id. Nunc sed lacinia mi. 
+            Aliquam non blandit nibh. Sed accumsan arcu ac ex pretium, ac pulvinar dui porttitor. Nunc suscipit odio vel nisi suscipit aliquet. 
+            Duis consectetur mauris at lacus aliquam, et luctus dolor tempus. Nunc eu magna sollicitudin metus laoreet sodales.
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+            Cras at tincidunt lorem, sit amet scelerisque ipsum. 
+            Integer aliquet interdum nibh ac elementum.
+            Nullam vestibulum dolor tortor, sed porta lacus elementum sed.
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+            Cras at tincidunt lorem, sit amet scelerisque ipsum. 
+            Integer aliquet interdum nibh ac elementum.
+            Nullam vestibulum dolor tortor, sed porta lacus elementum sed.
+          </p>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-xs-5 hidden-md hidden-lg">
+          <img src="img/ferrari.png" class="img-responsive img-rounded" alt="test">
+        </div>
+        <div class="col-xs-offset-1 col-xs-6 hidden-md hidden-lg">
+          <img src="img/porsche.png" class="img-responsive img-rounded" alt="test">
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-lg-12">
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+            Cras at tincidunt lorem, sit amet scelerisque ipsum. 
+            Integer aliquet interdum nibh ac elementum.
+            Nullam vestibulum dolor tortor, sed porta lacus elementum sed. 
+           Nam id libero tincidunt neque sodales ornare vel nec est. 
+            Aenean ornare lorem ac lorem molestie, quis tristique eros volutpat. Morbi non lacus mi. Nunc non mi dolor. 
+            Suspendisse quis auctor odio. Pellentesque eget nulla ac purus semper volutpat eu rhoncus urna. 
+            Etiam eleifend luctus mi, at convallis orci viverra id. Nunc sed lacinia mi. 
+            Aliquam non blandit nibh. Sed accumsan arcu ac ex pretium, ac pulvinar dui porttitor. Nunc suscipit odio vel nisi suscipit aliquet. 
+            Duis consectetur mauris at lacus aliquam, et luctus dolor tempus. Nunc eu magna sollicitudin metus laoreet sodales.
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+            Cras at tincidunt lorem, sit amet scelerisque ipsum. 
+            Integer aliquet interdum nibh ac elementum.
+            Nullam vestibulum dolor tortor, sed porta lacus elementum sed.
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+            Cras at tincidunt lorem, sit amet scelerisque ipsum. 
+            Integer aliquet interdum nibh ac elementum.
+            Nullam vestibulum dolor tortor, sed porta lacus elementum sed.
+          </p>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-lg-4 hidden-xs hidden-sm">
+          <img src="img/ferrari.png" class="img-responsive img-rounded" alt="test">
+        </div>
+        <div class="col-lg-4 hidden-xs hidden-sm">
+          <img src="img/porsche.png" class="img-responsive img-rounded" alt="test">
+        </div>
+        <div class="col-lg-4 hidden-xs hidden-sm">
+          <img src="img/black_car.png" class="img-responsive img-rounded" alt="test">
+        </div>
+        <div class="col-xs-12 hidden-md hidden-lg">
+          <img class="img-responsive" src="img/coupe_car.png" alt="test">
+        </div>
+      </div>
+
+    </div>
+
+        
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
